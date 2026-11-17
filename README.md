@@ -111,7 +111,6 @@ wrong population totals.
 ```
 maji-ndogo-project/
 ├── README.md
-├── queries.sql                      all SQL, in execution order
 ├── maji_ndogo_dashboard.pbix        Power BI file
 ├── maji_ndogo_dashboard.pdf         exported dashboard
 ├── exploratory_analysis_log.md      initial exploration
@@ -122,7 +121,6 @@ maji-ndogo-project/
 
 ## How to reproduce
 
-1. Load the `md_water_services` database into MySQL.
 2. Run `queries.sql` to create the three views.
 3. Open the `.pbix` file and point it at your MySQL server (Import mode).
 
